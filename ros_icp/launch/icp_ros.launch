@@ -1,0 +1,10 @@
+<!-- -->
+<launch>
+
+<node name="IcpRos" pkg ="ros_icp" type="icp_ros.py" respawn="false" output="screen"/>
+<node name="rqt_reconfigure" pkg ="rqt_reconfigure" type="rqt_reconfigure" respawn="false" output="screen"/>
+
+</launch>
+
+
+
