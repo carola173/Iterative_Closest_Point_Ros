@@ -42,7 +42,7 @@ class icp:
 
     def calculate_association(self,previous_points, current_points):
         '''
-            Association between the current and the previous point is calculated using the concept of lower ecludian distance between the two points
+            Association between the current and the previous point is calculated using the concept of lower distance between the two points
         '''
         # calc the sum of residual errors
         delta_points = previous_points - current_points
